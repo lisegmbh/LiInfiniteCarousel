@@ -1,0 +1,14 @@
+<div class="appContainer">
+  <h1>LiInfiniteCarousel Demo</h1>
+  <li-infinite-carousel [itemClasses]="'w-20'">
+    <ng-container *ngFor="let item of demoItems; let i = index">
+      <ng-template let-carousel infiniteCarouselItem>
+          <div class="demoItem" [style.backgroundColor]="item">
+              item {{i}}
+          </div>
+      </ng-template>
+  </ng-container>
+  </li-infinite-carousel>
+  <button (click)="demoItems.push(getRandomColor())">add item</button>
+  <button (click)="demoItems.pop()">remove item</button>
+</div>

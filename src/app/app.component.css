@@ -1,0 +1,19 @@
+
+.appContainer {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.demoItem {
+    display: block;
+    height: 160px;
+    text-align: center;
+    line-height: 200px;
+    margin: 10px;
+    background-color: lightgray;
+}
+
+.w-20 {
+    width: 20%;
+}

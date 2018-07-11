@@ -1,0 +1,10 @@
+{
+  "name": "li-infinite-carousel",
+  "version": "0.0.1",
+  "private": true,
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/animations": "^6.0.0-rc.0 || ^6.0.0"
+  }
+}

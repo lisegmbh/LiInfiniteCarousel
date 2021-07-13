@@ -1,3 +1,5 @@
+> :warning: **Unmaintained/Archived blog post example**: This repository contains one of our blog post's demo code. We do not maintain or update this repository. 
+
 # LiInfiniteCarousel
 
 Use LiInfiniteCarousel to create an easy to use carousel which can display many items and cycle through them one by one
